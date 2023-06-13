@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: demo
+
+grpc:
+  server:
+    port: 50051
+    keep-alive-time: 1m
+    max-inbound-message-size: 1024
